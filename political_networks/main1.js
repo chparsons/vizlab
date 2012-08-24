@@ -34,7 +34,6 @@ var color = d3.scale.category10();
 //var color = function(num) { return 'q' + num + '-3'; };
     
 //$('body').css('background-color', '#000');
-$('body').css('margin','0px');
 
 var svg = d3.select('#vis').append('svg')
     .attr('width', w)
