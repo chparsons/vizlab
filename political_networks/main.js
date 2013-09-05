@@ -112,8 +112,8 @@ function load_data(callback, opt)
 {
     //https://developers.google.com/fusiontables/docs/v1/using#queryData
 
-    //var query = "SELECT * FROM " + docid + " WHERE CICLO=2011 ORDER BY 'IMPORTE' DESC LIMIT " + opt.max_nodes;
     var query = "SELECT * FROM 1A9dgQIHqybDHAx9eZV0zwJrBD_omYW5xDBfLHFI ORDER BY 'IMPORTE' DESC LIMIT " + opt.max_nodes;
+    //var query = "SELECT * FROM " + docid + " WHERE CICLO=2011 ORDER BY 'IMPORTE' DESC LIMIT " + opt.max_nodes;
 
     //var filters = [ 'CICLO=2011' ];
     //var order = "'IMPORTE' DESC";
