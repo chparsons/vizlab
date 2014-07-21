@@ -346,8 +346,7 @@ function grafo( opt )
   grafo({
     el: '#grafo-07-09-11',
     tabla: tabla_07_09_11,
-    max_nodes: max_nodes,
-    node_r: { min: 2, max: 10 },
+    max_nodes: max_nodes
   });
 
 })();
@@ -401,9 +400,9 @@ function grafo( opt )
     el: '#grafo-2013-grales',
     tabla: tabla_2013_grales,
     max_nodes: max_nodes,
-    node_r: { min: 3, max: 10 },
-    charge: -20,
-    link_dist: 24
+    node_r: { min: 2, max: 9 },
+    charge: -12,
+    link_dist: 22
   });
 
 })();
